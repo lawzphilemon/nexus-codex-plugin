@@ -1,0 +1,25 @@
+{
+  "name": "nexus",
+  "version": "1.1.0",
+  "description": "Full SEO/GEO content pipeline for TrueMission: SERP analysis, intent + E-E-A-T gap analysis, query fan-out + GEO structure prescription, outline with real internal link discovery, first draft, final polish with SEO pack + schema, standalone humanizer, and a conversion layer that injects site-branded CTAs and soft product upsells.",
+  "author": {
+    "name": "Lawrence Philemon"
+  },
+  "license": "MIT",
+  "keywords": ["seo", "geo", "content", "insurance", "cta", "upsell", "internal-links", "humanizer", "truemission"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "NEXUS Content Pipeline",
+    "shortDescription": "SEO/GEO content pipeline: research to CTA-ready article",
+    "longDescription": "Runs the full TrueMission content pipeline: SERP research, intent and E-E-A-T gap analysis, GEO query fan-out and structure prescription, outline with real internal link discovery and conversion-point tagging, first draft, final polish with on-page SEO pack and schema, a standalone humanizer, and a conversion layer that injects site-branded WhatsApp CTAs and soft product upsells.",
+    "developerName": "Lawrence Philemon",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": [
+      "Research this keyword with $research",
+      "Build the outline with $outline",
+      "Add CTAs to this draft with $convert"
+    ],
+    "brandColor": "#8B1A1A"
+  }
+}
