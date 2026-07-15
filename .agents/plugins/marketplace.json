@@ -1,0 +1,16 @@
+{
+  "name": "nexus-codex-plugin",
+  "interface": {
+    "displayName": "NEXUS Content Pipeline"
+  },
+  "plugins": [
+    {
+      "name": "nexus",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
