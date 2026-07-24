@@ -23,7 +23,7 @@ Or from inside the Codex TUI: run `/plugins`, then add this repo as a marketplac
 ## Pipeline
 
 ```
-$research → $improve → $geo → $outline → $firstdraft → $finaldraft → $convert
+$research → $improve → $geo → $outline → $firstdraft → $finaldraft → [$convert] → $export-docx
 ```
 
 `$humanize` also works standalone, outside the pipeline.
@@ -38,6 +38,7 @@ $research → $improve → $geo → $outline → $firstdraft → $finaldraft →
 - `skills/finaldraft/` — NEX-Fn, final polish + compliance checks + SEO pack + schema
 - `skills/humanize/` — NEX-H, standalone humanizer
 - `skills/convert/` — NEX-U, site-branded CTA injection + product upsell
+- `skills/export-docx/` — NEX-X, verified DOCX export with SEO metadata table, formatted article, and schema
 - `skills/humanizer-id/`, `skills/humanizer-en/` — the humanizer rule sets used by firstdraft/finaldraft/humanize
 - `skills/wa-cta-standard/` — CTA visual variants + color token system
 - `skills/product-upsell/` — insurance/Prudential-specific upsell rules
